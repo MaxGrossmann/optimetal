@@ -1,0 +1,4 @@
+OptiMate2B improvement (architecture optimization)        = 7.66%
+OptiMate3B improvement (message passing optimization)     = 1.32%
+OptiMate3B improvement compared to unoptimized OptiMate2B = 18.35%
+OptiMate3B improvement compared to optimized OptiMate2B   = 11.57%

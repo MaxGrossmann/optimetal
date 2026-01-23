@@ -1,0 +1,52 @@
+{
+    "seed": 137,
+    "trial_dir": "/scratch/magr4985/Transformer_Scaling/2b_transformer_scaling_hidden1024_gamma1.100_seed137",
+    "num_train_data": 20000,
+    "batch_size": 256,
+    "architecture": {
+        "activation": "relu",
+        "depth": 2,
+        "edge_embedding_dict": {
+            "apply_envelope": true,
+            "basis_width": 4.0,
+            "num_basis": 32,
+            "type": "gaussian"
+        },
+        "hidden_dim": 1024,
+        "message_passing_dict": {
+            "heads": 2,
+            "hidden_multiplier": 6,
+            "num_layers": 2,
+            "type": "transformer"
+        },
+        "node_embedding_dict": {
+            "type": "group_period"
+        },
+        "pooling_dict": {
+            "type": "vector_attention"
+        },
+        "spectra_dim": 4096,
+        "twobody_cutoff": 5.5,
+        "type": "optimetal_2b"
+    },
+    "optimizer": {
+        "type": "adamw",
+        "lr": 4.82334952541887e-05,
+        "weight_decay": 1e-06
+    },
+    "loss_fn_eps": "mae",
+    "loss_fn_drude": "mae",
+    "lr_scheduler": {
+        "type": "cosineannealing",
+        "T_max": 500,
+        "eta_min": 0.0
+    },
+    "warmup_epochs": 5,
+    "grad_clip": 100,
+    "eps_weight": 1,
+    "drude_weight": 1,
+    "early_stopping": false,
+    "patience": 500,
+    "num_epoch": 500,
+    "precision": "bf16"
+}

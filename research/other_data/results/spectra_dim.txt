@@ -1,0 +1,10 @@
+\begin{tabular}{l@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+ & \multicolumn{4}{c}{$m_\mathrm{spectra}$} \\
+ & 1 & 2 & 4 & 8 \\
+\midrule
+$N$ & 3.9M & 5.2M & 8.1M & 15.7M \\
+$L_\mathrm{val}$ & 1.063 & 1.073 & 1.063 & 1.043 \\
+$\sigma(L_\mathrm{val})$ & 0.017 & 0.003 & 0.004 & 0.015 \\
+\bottomrule
+\end{tabular}

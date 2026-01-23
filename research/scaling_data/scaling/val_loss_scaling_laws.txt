@@ -1,0 +1,19 @@
+\begin{tabular}{c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+Model & $\alpha_{D,1}$ & $\alpha_{D,2}$ & $D_c$ & AICc \\
+\midrule
+OptiMetal2B (CGC) & $0.15 \pm 0.00$ & $0.42 \pm 0.01$ & $10^{4.72} \pm 10^{3.33}$ & -57.74 \\
+OptiMetal2B (TC) & $0.18 \pm 0.01$ & $0.39 \pm 0.03$ & $10^{4.62} \pm 10^{3.62}$ & -44.88 \\
+OptiMetal3B (TC) & $0.17 \pm 0.01$ & $0.38 \pm 0.02$ & $10^{4.43} \pm 10^{3.25}$ & -57.70 \\
+\bottomrule
+\end{tabular}
+
+\begin{tabular}{c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+Model & $\alpha_{N}$ & $N_0$ & $L_\infty$ & AICc \\
+\midrule
+OptiMetal2B (CGC) & $0.53 \pm 0.03$ & $10^{4.40} \pm 10^{3.46}$ & $1.01 \pm 0.00$ & -60.97 \\
+OptiMetal2B (TC) & $0.58 \pm 0.06$ & $10^{4.33} \pm 10^{3.77}$ & $1.03 \pm 0.01$ & -54.73 \\
+OptiMetal3B (TC) & $0.41 \pm 0.09$ & $10^{3.95} \pm 10^{3.78}$ & $0.89 \pm 0.02$ & -51.17 \\
+\bottomrule
+\end{tabular}

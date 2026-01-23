@@ -1,0 +1,9 @@
+\begin{tabular}{c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+Model & $\alpha_{N}$ & $N_0$ & $L_\infty$ & AICc \\
+\midrule
+OptiMetal2B (CGC) & $0.53 \pm 0.03$ & $10^{4.40} \pm 10^{3.46}$ & $1.01 \pm 0.00$ & -60.97 \\
+OptiMetal2B (TC) & $0.58 \pm 0.06$ & $10^{4.33} \pm 10^{3.77}$ & $1.03 \pm 0.01$ & -54.73 \\
+OptiMetal3B (TC) & $0.41 \pm 0.09$ & $10^{3.95} \pm 10^{3.78}$ & $0.89 \pm 0.02$ & -51.17 \\
+\bottomrule
+\end{tabular}

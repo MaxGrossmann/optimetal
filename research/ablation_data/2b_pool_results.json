@@ -1,0 +1,58 @@
+[
+    {
+        "perm_str":"{\"type\": \"vector_attention\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1579296454,
+        "std_val_loss":0.0040757643,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"type\": \"scalar_attention\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1712364167,
+        "std_val_loss":0.0112460146,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"type\": \"mean\"}",
+        "lr":0.001,
+        "wd":0.000008,
+        "mean_val_loss":1.1722707762,
+        "std_val_loss":0.003135445,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"processing_steps\": 3, \"type\": \"set2set\"}",
+        "lr":0.001,
+        "wd":0.00008,
+        "mean_val_loss":1.1837747233,
+        "std_val_loss":0.0065903835,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"processing_steps\": 1, \"type\": \"set2set\"}",
+        "lr":0.0006,
+        "wd":0.0006,
+        "mean_val_loss":1.1930671399,
+        "std_val_loss":0.0020043488,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"processing_steps\": 2, \"type\": \"set2set\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.2036709237,
+        "std_val_loss":0.014508248,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"processing_steps\": 4, \"type\": \"set2set\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.2192843229,
+        "std_val_loss":0.0303555139,
+        "n_seeds":3
+    }
+]

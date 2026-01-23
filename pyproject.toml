@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optimetal"
+version = "1.0.0"
+description = "Code for the publication 'Broken neural scaling laws in materials science'"
+authors = [
+    {name = "Max Großmann", email = "max.grossmann@tu-ilmenau.de"},
+]
+license = {text = "MIT"}
+requires-python = ">=3.12, <=3.13"
+
+dependencies = [
+    "tqdm",
+    "h5py",
+    "numpy",
+    "scipy",
+    "pydantic>=2.5,<3",
+    "pymatgen",
+    "ipykernel",
+    "matplotlib",
+    "prettytable",
+    "torch",
+    "torch_geometric",
+    "tensorboard",
+    "optuna",
+    "optuna-dashboard",
+]
+
+[tool.setuptools.packages.find]
+include = ["optimetal"]
+
+[tool.setuptools.package-data]
+"optimetal.files" = ["*.csv", "*.mplstyle", "*.pt"]

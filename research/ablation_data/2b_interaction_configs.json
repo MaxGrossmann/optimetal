@@ -1,0 +1,226 @@
+[
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "type": "group_period"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "heads": 2,
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "transformer"
+            },
+            "pooling_dict": {
+                "type": "vector_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    },
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "type": "group_period"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "heads": 2,
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "transformer"
+            },
+            "pooling_dict": {
+                "type": "scalar_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    },
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "type": "group_period"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "cgconv"
+            },
+            "pooling_dict": {
+                "type": "vector_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    },
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "type": "group_period"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "cgconv"
+            },
+            "pooling_dict": {
+                "type": "scalar_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    },
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "embedding_dim": 256,
+                "type": "atom"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "heads": 2,
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "transformer"
+            },
+            "pooling_dict": {
+                "type": "vector_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    },
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "embedding_dim": 256,
+                "type": "atom"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "heads": 2,
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "transformer"
+            },
+            "pooling_dict": {
+                "type": "scalar_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    },
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "embedding_dim": 256,
+                "type": "atom"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "cgconv"
+            },
+            "pooling_dict": {
+                "type": "vector_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    },
+    {
+        "architecture": {
+            "type": "optimetal_2b",
+            "node_embedding_dict": {
+                "embedding_dim": 256,
+                "type": "atom"
+            },
+            "edge_embedding_dict": {
+                "apply_envelope": true,
+                "basis_width": 4.0,
+                "num_basis": 32,
+                "type": "gaussian"
+            },
+            "message_passing_dict": {
+                "hidden_multiplier": 6,
+                "num_layers": 2,
+                "type": "cgconv"
+            },
+            "pooling_dict": {
+                "type": "scalar_attention"
+            },
+            "hidden_dim": 256,
+            "spectra_dim": 1024,
+            "depth": 2,
+            "activation": "relu",
+            "twobody_cutoff": 5.5
+        }
+    }
+]

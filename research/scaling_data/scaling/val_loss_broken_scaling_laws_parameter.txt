@@ -1,0 +1,9 @@
+\begin{tabular}{c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+Model & $\alpha_{N,1}$ & $\alpha_{N,2}$ & $N_c$ & AICc \\
+\midrule
+OptiMetal2B (CGC) & $0.09 \pm 0.01$ & $-0.01 \pm 0.00$ & $10^{6.60} \pm 10^{6.17}$ & -48.73 \\
+OptiMetal2B (TC) & $0.07 \pm 0.01$ & $-0.01 \pm 0.00$ & $10^{6.79} \pm 10^{6.03}$ & -56.10 \\
+OptiMetal3B (TC) & $0.12 \pm 0.06$ & $0.02 \pm 0.00$ & $10^{5.74} \pm 10^{5.56}$ & -47.24 \\
+\bottomrule
+\end{tabular}

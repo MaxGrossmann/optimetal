@@ -1,0 +1,51 @@
+{
+    "seed": 42,
+    "trial_dir": "/scratch/magr4985/MLP_AddNorm/optimetal_2b_no_residual_20000_mp5_seed42",
+    "num_train_data": 20000,
+    "batch_size": 256,
+    "architecture": {
+        "type": "optimetal_2b_no_residual",
+        "node_embedding_dict": {
+            "type": "group_period"
+        },
+        "edge_embedding_dict": {
+            "type": "gaussian",
+            "num_basis": 64,
+            "basis_width": 2.0,
+            "apply_envelope": false
+        },
+        "message_passing_dict": {
+            "num_layers": 5,
+            "type": "gatv2",
+            "heads": 4
+        },
+        "pooling_dict": {
+            "type": "vector_attention"
+        },
+        "hidden_dim": 256,
+        "spectra_dim": 1024,
+        "depth": 2,
+        "activation": "relu",
+        "twobody_cutoff": 5.5
+    },
+    "optimizer": {
+        "type": "adamw",
+        "lr": 0.0006,
+        "weight_decay": 0.0004
+    },
+    "loss_fn_eps": "mae",
+    "loss_fn_drude": "mae",
+    "lr_scheduler": {
+        "type": "cosineannealing",
+        "T_max": 200,
+        "eta_min": 0.0
+    },
+    "warmup_epochs": 5,
+    "grad_clip": 100,
+    "eps_weight": 1,
+    "drude_weight": 1,
+    "early_stopping": false,
+    "patience": 200,
+    "num_epoch": 200,
+    "precision": "bf16"
+}

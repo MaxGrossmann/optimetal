@@ -1,0 +1,15 @@
+\begin{tabular}{c@{\hspace{1em}}l@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+ &  & \multicolumn{8}{c}{$N_\mathrm{MP}$} \\
+ &  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+\midrule
+\multirow[t]{3}{*}{MP-only} & $N$ & 6.2M & 6.4M & 6.7M & 7.0M & 7.2M & 7.5M & 7.7M & 8.0M \\
+ & $L_\mathrm{val}$ & 1.346 & 1.412 & 1.233 & 1.184 & 1.176 & 1.428 & 1.205 & 1.308 \\
+ & $\sigma(L_\mathrm{val})$ & 0.023 & 0.078 & 0.015 & 0.004 & 0.005 & 0.033 & 0.012 & 0.062 \\
+\midrule
+\multirow[t]{3}{*}{MP with MLP+\textsc{Add\&Norm}} & $N$ & 6.7M & 7.5M & 8.3M & 9.1M & 9.9M & 10.7M & 11.4M & 12.2M \\
+ & $L_\mathrm{val}$ & 1.269 & 1.162 & 1.137 & 1.124 & 1.119 & 1.142 & 1.158 & 1.163 \\
+ & $\sigma(L_\mathrm{val})$ & 0.022 & 0.006 & 0.007 & 0.004 & 0.003 & 0.010 & 0.006 & 0.012 \\
+\midrule
+\bottomrule
+\end{tabular}

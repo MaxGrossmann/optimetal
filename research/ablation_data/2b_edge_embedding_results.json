@@ -1,0 +1,674 @@
+[
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 4.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.0008,
+        "wd":0.001,
+        "mean_val_loss":1.1373137807,
+        "std_val_loss":0.0054687136,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 4.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1384056128,
+        "std_val_loss":0.0206290171,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 4.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1434618951,
+        "std_val_loss":0.0132593524,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 3.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.0006,
+        "mean_val_loss":1.1434834274,
+        "std_val_loss":0.0073578477,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 2.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.000008,
+        "mean_val_loss":1.1466056811,
+        "std_val_loss":0.0125030442,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 3.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1467193985,
+        "std_val_loss":0.0040883324,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 2.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.0001,
+        "mean_val_loss":1.1505246107,
+        "std_val_loss":0.0042875431,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 4.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.001,
+        "mean_val_loss":1.1506203674,
+        "std_val_loss":0.0061058322,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 3.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1512198113,
+        "std_val_loss":0.0130892877,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 0.5, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1521621152,
+        "std_val_loss":0.0051272286,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 3.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1526165015,
+        "std_val_loss":0.0032085508,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 3.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.1544083175,
+        "std_val_loss":0.0103419451,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 1.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1545352458,
+        "std_val_loss":0.014287665,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 4.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1548116883,
+        "std_val_loss":0.0167666368,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 16, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0004,
+        "mean_val_loss":1.1548979055,
+        "std_val_loss":0.0153694862,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 1.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1550298433,
+        "std_val_loss":0.0104517739,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 1.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1560501649,
+        "std_val_loss":0.0080542517,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 3.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.00002,
+        "mean_val_loss":1.1572307732,
+        "std_val_loss":0.0107955577,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 0.5, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1572327597,
+        "std_val_loss":0.0122363903,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 0.5, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1578144977,
+        "std_val_loss":0.0056289423,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 4.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0008,
+        "wd":0.00008,
+        "mean_val_loss":1.1586644712,
+        "std_val_loss":0.009772973,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 4.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.000008,
+        "mean_val_loss":1.1588217913,
+        "std_val_loss":0.0047527978,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 3.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1591850168,
+        "std_val_loss":0.0141939238,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 4.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.1596048133,
+        "std_val_loss":0.0041365256,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 2.0, \"num_basis\": 16, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1598255052,
+        "std_val_loss":0.0096752766,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 2.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1604135565,
+        "std_val_loss":0.0103526017,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 2.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.16106407,
+        "std_val_loss":0.0055536029,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 4.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1611216486,
+        "std_val_loss":0.0086744428,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 3.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0006,
+        "mean_val_loss":1.1618169534,
+        "std_val_loss":0.0072885816,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 4.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1621074502,
+        "std_val_loss":0.0045776573,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 1.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.0004,
+        "mean_val_loss":1.1635379541,
+        "std_val_loss":0.0194500123,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 0.5, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.0008,
+        "wd":0.001,
+        "mean_val_loss":1.1647550293,
+        "std_val_loss":0.0026157419,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 2.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.1649040161,
+        "std_val_loss":0.0067512504,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 3.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1650520216,
+        "std_val_loss":0.0076375868,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 2.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.00002,
+        "mean_val_loss":1.1656635129,
+        "std_val_loss":0.0062007199,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 1.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1658651263,
+        "std_val_loss":0.0107651484,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 1.0, \"num_basis\": 32, \"type\": \"gaussian\"}",
+        "lr":0.0008,
+        "wd":0.00002,
+        "mean_val_loss":1.1659575068,
+        "std_val_loss":0.0074465583,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 16, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1671689373,
+        "std_val_loss":0.0195438148,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 1.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0008,
+        "wd":0.00008,
+        "mean_val_loss":1.1684584749,
+        "std_val_loss":0.0035426401,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 3.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1693805942,
+        "std_val_loss":0.0138500631,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 2.0, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0006,
+        "mean_val_loss":1.1700528694,
+        "std_val_loss":0.0147224872,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 3.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.0001,
+        "mean_val_loss":1.1704528434,
+        "std_val_loss":0.0109770772,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 4.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1718679313,
+        "std_val_loss":0.0131128419,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 16, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.001,
+        "wd":0.000008,
+        "mean_val_loss":1.173689029,
+        "std_val_loss":0.0069204468,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 0.5, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.00008,
+        "mean_val_loss":1.1757279216,
+        "std_val_loss":0.0150053987,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 32, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.001,
+        "wd":0.00002,
+        "mean_val_loss":1.1760295929,
+        "std_val_loss":0.0160378672,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 1.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.1770690891,
+        "std_val_loss":0.0014737529,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 1.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1783517696,
+        "std_val_loss":0.017898477,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 2.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1804116311,
+        "std_val_loss":0.0043615813,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 0.5, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.000006,
+        "mean_val_loss":1.180433278,
+        "std_val_loss":0.0104472818,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 3.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1804704805,
+        "std_val_loss":0.0027927955,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 1.0, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1810639073,
+        "std_val_loss":0.0109041031,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 16, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1810773643,
+        "std_val_loss":0.0156145849,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 2.0, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.1816556569,
+        "std_val_loss":0.012600774,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 0.5, \"num_basis\": 128, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.1822050251,
+        "std_val_loss":0.0066978118,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 4.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.0006,
+        "mean_val_loss":1.1828262777,
+        "std_val_loss":0.0019626706,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 32, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0004,
+        "mean_val_loss":1.186053554,
+        "std_val_loss":0.0264135868,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 128, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.0008,
+        "wd":0.000006,
+        "mean_val_loss":1.1871926896,
+        "std_val_loss":0.0054726731,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 64, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.0006,
+        "wd":0.0,
+        "mean_val_loss":1.1874477628,
+        "std_val_loss":0.004134764,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 32, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.001,
+        "wd":0.00008,
+        "mean_val_loss":1.1875774477,
+        "std_val_loss":0.0063344811,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 64, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.0008,
+        "wd":0.001,
+        "mean_val_loss":1.1886716899,
+        "std_val_loss":0.0102077479,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 32, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.0006,
+        "wd":0.0006,
+        "mean_val_loss":1.1890590954,
+        "std_val_loss":0.021435303,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 2.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.000008,
+        "mean_val_loss":1.1895443261,
+        "std_val_loss":0.0230009089,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 1.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.191569486,
+        "std_val_loss":0.0155112919,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 128, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.0006,
+        "wd":0.0006,
+        "mean_val_loss":1.1920070413,
+        "std_val_loss":0.0184729743,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 2.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.0006,
+        "wd":0.000001,
+        "mean_val_loss":1.1921958642,
+        "std_val_loss":0.0062912289,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 0.5, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1931601876,
+        "std_val_loss":0.003112393,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 0.5, \"num_basis\": 64, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1940876265,
+        "std_val_loss":0.0221870763,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 1.0, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.001,
+        "wd":0.000006,
+        "mean_val_loss":1.1942034108,
+        "std_val_loss":0.0044020933,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 64, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.1973055703,
+        "std_val_loss":0.0140999688,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 128, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0006,
+        "mean_val_loss":1.1988601414,
+        "std_val_loss":0.0295281158,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 0.5, \"num_basis\": 256, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.1989473922,
+        "std_val_loss":0.0195406368,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 256, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.001,
+        "mean_val_loss":1.2002044387,
+        "std_val_loss":0.0151421379,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"basis_width\": 0.5, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.2049140449,
+        "std_val_loss":0.0244900078,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 128, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.001,
+        "wd":0.000008,
+        "mean_val_loss":1.2078835168,
+        "std_val_loss":0.0179584109,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"basis_width\": 0.5, \"num_basis\": 512, \"type\": \"gaussian\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.2079236233,
+        "std_val_loss":0.0062509755,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 512, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.001,
+        "mean_val_loss":1.2136167866,
+        "std_val_loss":0.0308089263,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 256, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.2155559901,
+        "std_val_loss":0.0188723268,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 512, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0006,
+        "mean_val_loss":1.2156681574,
+        "std_val_loss":0.0110480635,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 64, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.2160903749,
+        "std_val_loss":0.0349758428,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 512, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.22342474,
+        "std_val_loss":0.0241449552,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 256, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.2270040207,
+        "std_val_loss":0.0268142508,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": true, \"num_basis\": 256, \"trainable\": true, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.00008,
+        "mean_val_loss":1.2338225417,
+        "std_val_loss":0.0184693814,
+        "n_seeds":3
+    },
+    {
+        "perm_str":"{\"apply_envelope\": false, \"num_basis\": 512, \"trainable\": false, \"type\": \"bessel\"}",
+        "lr":0.002,
+        "wd":0.0001,
+        "mean_val_loss":1.2508433979,
+        "std_val_loss":0.0142844477,
+        "n_seeds":3
+    }
+]

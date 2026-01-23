@@ -1,0 +1,29 @@
+{
+    "seed": 1,
+    "trial_dir": "/scratch/magr4985/Scaling_Base/optimate_hestness_data80000_seed1",
+    "num_train_data": 80000,
+    "batch_size": 256,
+    "architecture": {
+        "type": "optimate"
+    },
+    "optimizer": {
+        "type": "adam",
+        "lr": 0.001,
+        "weight_decay": 1e-05
+    },
+    "loss_fn_eps": "optimate",
+    "loss_fn_drude": "mae",
+    "lr_scheduler": {
+        "type": "cosineannealing",
+        "T_max": 500,
+        "eta_min": 0.0
+    },
+    "warmup_epochs": 5,
+    "grad_clip": 100,
+    "eps_weight": 1,
+    "drude_weight": 0,
+    "early_stopping": false,
+    "patience": 500,
+    "num_epoch": 500,
+    "precision": "bf16"
+}

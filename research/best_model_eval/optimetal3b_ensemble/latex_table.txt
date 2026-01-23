@@ -1,0 +1,20 @@
+\begin{tabular}{lccc}
+\toprule
+ & Mean & Median & $\sigma$ \\
+\midrule
+$L_\mathrm{test}$ & 0.425 & 0.335 & 0.317 \\
+\midrule
+MAE$[\mathrm{Re}(\overline{\varepsilon}_\mathrm{inter})]$ & 0.303 & 0.246 & 0.211 \\
+R$^2[\mathrm{Re}(\overline{\varepsilon}_\mathrm{inter})]$ & 0.984 & 0.995 & 0.036 \\
+SC$[\mathrm{Re}(\overline{\varepsilon}_\mathrm{inter})]$ & 0.905 & 0.923 & 0.064 \\
+\midrule
+MAE$[\mathrm{Im}(\overline{\varepsilon}_\mathrm{inter})]$ & 0.304 & 0.249 & 0.208 \\
+R$^2[\mathrm{Im}(\overline{\varepsilon}_\mathrm{inter})]$ & 0.978 & 0.992 & 0.058 \\
+SC$[\mathrm{Im}(\overline{\varepsilon}_\mathrm{inter})]$ & 0.939 & 0.950 & 0.042 \\
+\midrule
+$\vert\Delta\overline{\omega}_\mathrm{D}\vert$ (eV) & 0.121 & 0.074 & 0.150 \\
+$\delta\overline{\omega}_\mathrm{D}$ (\%) & 2.898 & 1.636 & 4.720 \\
+\midrule
+$\Delta E$ & 1.365 & 0.992 & 1.402 \\
+\bottomrule
+\end{tabular}

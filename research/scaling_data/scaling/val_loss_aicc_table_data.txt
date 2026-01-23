@@ -1,0 +1,10 @@
+\begin{tabular}{lc@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+ & OptiMetal2B (CGC) & OptiMetal2B (TC) & OptiMetal3B (TC) \\
+\midrule
+Power Law & -36.20 & -34.87 & -39.91 \\
+Power Law + Floor & -29.20 & -27.87 & -32.91 \\
+Broken Power Law & -57.74 & -44.88 & -57.70 \\
+Broken power law + Amplitude & -49.89 & -38.72 & -48.48 \\
+\bottomrule
+\end{tabular}
