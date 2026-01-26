@@ -292,7 +292,10 @@ def periodic_table_plot(
             else:
                 ax.text(xpos, ypos + 0.3, f"{counts[element['AtomicNumber']][0]:d}", ha="center", va="center", fontsize=6)
         except:
-            ax.text(xpos, ypos + 0.3, "0.00", ha="center", va="center", fontsize=6)
+            if percentage:
+                ax.text(xpos, ypos + 0.3, "0.00%", ha="center", va="center", fontsize=6)
+            else:
+                ax.text(xpos, ypos + 0.3, "0", ha="center", va="center", fontsize=6)
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=cnorm)
     sm.set_array([])
     cbar = fig.colorbar(
