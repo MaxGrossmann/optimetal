@@ -31,7 +31,7 @@ The configuration dictionary is valid using pydantic. The architecture, learning
 and optimizer dictionaries, however, are validated in their respective factories and model definitions.
 
 Track the training progress through something like this (adjust the path accordingly):
-    tensorboard --logdir /scratch/magr4985/Scaling_Base/2b_variant2_hestness_data20000_seed42
+    tensorboard --logdir ./scratch/magr4985/Scaling_Base/2b_variant2_hestness_data20000_seed42
 https://docs.pytorch.org/docs/stable//tensorboard.html
 """
 

@@ -1,8 +1,8 @@
-# Broken neural scaling laws in materials science
+# OptiMetal
 
-This repository contains the code and derived results for the publication [*Broken neural scaling laws in materials science*](https://arxiv.org/), as well as instructions for obtaining the associated dataset.
-It contains the implementation of the OptiMetal model family and all code used to produce the machine learning results presented in the publication. 
-This includes dataset analytics, architecture optimization results, and neural scaling law analyses, and more.
+This repository contains the implementation of the OptiMetal model family: a set of graph neural networks for predicting the optical properties of metals from structural information alone.
+
+In addition, the repository provides all code and derived results used in the publication [*Broken neural scaling laws in materials science*](https://arxiv.org/), including dataset analytics, architecture optimization results, and neural scaling law analyses, as well as instructions for obtaining the associated datasets.
 
 ---
 
@@ -28,9 +28,20 @@ cd optimetal
 conda create -n optimetal python=3.12
 conda activate optimetal
 
-# 3. install the code and its dependencies
+# 3. install torch (choose the correct command for your system)
+# see https://pytorch.org/get-started/locally/
+
+# 4. install torch_geometric matching your torch version
+# see https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+
+# 5. install the code and its dependencies
 pip install -e .
+
 ```
+
+**Note:** The default installation via `pip install -e .` installs the CPU-only versions of PyTorch and PyTorch Geometric. 
+Users with NVIDIA GPUs who wish to use CUDA or `bfloat16` inference should first install a CUDA-enabled version of PyTorch and the corresponding PyTorch Geometric packages.
+In other words, users with NVIDIA GPUs should follow and complete steps 3 and 4 before running `pip install -e .`.
 
 #### Data
 
@@ -45,7 +56,8 @@ There are two paths to obtain the dataset containing the dielectric functions an
 ### Model disclaimer
 
 All models provided in this repository (see `./optimetal/files`) were trained using mixed-precision arithmetic with `bfloat16` to reduce memory usage and accelerate computation. 
-We observed small yet systematic differences between inference performed in `bfloat16` and `fp32`. Therefore, to reproduce the results reported in the publication as closely as possible, inference should be performed using `bfloat16`.
+We observed small yet systematic differences between inference performed in `bfloat16` and `fp32`. 
+Therefore, to reproduce the results reported in the publication as closely as possible, inference should be performed using `bfloat16`.
 
 Running inference in `bfloat16` requires NVIDIA GPUs of the Ampere generation or newer. 
 Inference in full precision (`fp32`) is generally possible on older hardware, though it may result in slight numerical discrepancies from the reported results.

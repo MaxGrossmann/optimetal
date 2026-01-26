@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "optimetal"
 version = "1.0.0"
-description = "Code for the publication 'Broken neural scaling laws in materials science'"
+description = "OptiMetal: Graph neural networks for optical properties of metals"
 authors = [
     {name = "Max Großmann", email = "max.grossmann@tu-ilmenau.de"},
 ]
