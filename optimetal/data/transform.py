@@ -171,7 +171,7 @@ def graph_setup(
     """
     Converts the input data into a custom torch_geometric 'Data' object.
     Input:
-        data_list:          List of custom torch_geometric 'Data' objects containing the crystal structure and material properties
+        data_list:          List of dictionaries containing the crystal structure and material properties
         twobody_cutoff:     Cutoff radius in angstroms for finding bonds
         threebody_cutoff:   Cutoff radius in angstroms for finding bond angles 
                             (default is same as M3GNET, i.e., https://www.nature.com/articles/s43588-022-00349-3#Sec8)

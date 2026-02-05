@@ -2,6 +2,8 @@
 Helper function to set up a learning rate scheduler based on a dictionary.
 """
 
+from __future__ import annotations
+
 import warnings
 from typing import Literal, Annotated, Union
 from pydantic import BaseModel, Field, ConfigDict, TypeAdapter

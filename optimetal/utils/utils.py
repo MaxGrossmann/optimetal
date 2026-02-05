@@ -1,5 +1,5 @@
 """
-Useful function when using torch or torch_geometric.
+Useful functions.
 """
 
 from __future__ import annotations
@@ -76,12 +76,20 @@ Useful functions when working with paths.
 """
 
 import os
+import stat
 
 def listdir_full(base_dir: str) -> list[str]:
     """
     os.listdir, but the output is the full path to all items.
     """
     return [os.path.join(base_dir, file) for file in os.listdir(base_dir)]
+
+def shutil_remove_readonly(func: Callable, path: str, _) -> None:
+    """
+    Clear the readonly bit and reattempt the removal (windows only...).
+    """
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
 
 """
 Plot functions.
@@ -361,8 +369,6 @@ def periodic_table_plot(
 Helper functions and variables to validate or print certain inputs.
 """
 
-import os
-import stat
 import json
 from typing import Literal
 from pydantic import BaseModel, Field, ConfigDict
@@ -394,17 +400,10 @@ class ValidateConfigurationDict(BaseModel):
     early_stopping: bool
     patience: int = Field(default=200, gt=0)
     num_epoch: int = Field(default=1000, gt=0)
-    precision: Literal["auto", "bf16", "fp32"]
+    precision: Literal["fp32", "bf16"]
 
 def print_dict(some_dict: dict) -> None:    
     """
     Easily readable dictionary printout.
     """
     print(json.dumps(some_dict, indent=4), flush=True)
-    
-def shutil_remove_readonly(func: Callable, path: str, _) -> None:
-    """
-    Clear the readonly bit and reattempt the removal (windows only...).
-    """
-    os.chmod(path, stat.S_IWRITE)
-    func(path)

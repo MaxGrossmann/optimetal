@@ -2,6 +2,8 @@
 Helper function to set up an optimizer based on a dictionary.
 """
 
+from __future__ import annotations
+
 from typing import Literal, Annotated, Union
 from pydantic import BaseModel, Field, ConfigDict, TypeAdapter
 

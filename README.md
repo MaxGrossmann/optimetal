@@ -20,11 +20,11 @@ In addition, the repository provides all code and derived results used in the pu
 #### Code
 
 ```
-# 1. clone
+# 1. clone the repository
 git clone https://github.com/MaxGrossmann/optimetal.git
 cd optimetal
 
-# 2. (optional) create an isolated python environment, i.e., using conda
+# 2. (optional) create an isolated python environment, e.g., using conda
 conda create -n optimetal python=3.12
 conda activate optimetal
 

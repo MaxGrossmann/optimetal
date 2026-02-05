@@ -2,8 +2,9 @@
 In this study, we examine how adding an 'MLP+AddNorm' block after each message
 passing operation affects model performance. We perform this analysis for
 different numbers of message passing steps and train each model using three
-random seeds. The resulting configuration files can then be used to easily 
-train models with the "research/train_model.py" script.
+random seeds. The resulting configuration files can then be used to 
+easily train models with either the 'research/train_model.py' or the 
+'research/train_model_with_lrwd_optim.py' script.
 
 The OptiMetal2B architecture is loaded from the results of the ablation study.
 The trial directory for each model is hardcoded.

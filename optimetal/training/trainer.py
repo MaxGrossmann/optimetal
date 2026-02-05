@@ -44,13 +44,13 @@ class Trainer:
             "loss_fn_eps":      Loss function for the dielectric function
             "loss_fn_drude":    Loss function for the Drude frequency
             "lr_scheduler":     None or learning rate scheduler instance
-            "grad_clip:"        None or maximum norm of the gradients
+            "grad_clip":        None or maximum norm of the gradients
             "eps_weight":       Interband dielectric function loss weight
             "drude_weight":     Drude frequency loss weight
-            "early_stopping:    Flag to activate early stopping
+            "early_stopping":   Flag to activate early stopping
             "patience":         Early stopping patience (only used if early_stopping=True)
             "seed":             Random seed
-            "precision":        Automatic mixed precision training ("auto", "bf16" or "fp32")
+            "precision":        Automatic mixed precision training ("fp32" or "bf16")
             "trial":            (Optional) Optuna trial object, set it to 'None' or omit it
         The variables 'checkpoint_every' and 'best_model_start_epoch' are self-explanatory.
         The 'trainer_dict' is validated in the training script/notebook, check the 'research' directory.
@@ -141,7 +141,7 @@ class Trainer:
         total_grad_norm = 0.0
         num_samples = 0
         num_batches = 0
-        self.model.to(self.device) # needed when calling this function by itself
+        self.model.to(self.device)
         self.model.train()
         for batch in self.train_loader:
             batch.to(self.device)
@@ -186,7 +186,7 @@ class Trainer:
         drude_val_loss = 0.0
         val_loss = 0.0
         num_samples = 0
-        self.model.to(self.device) # needed when calling this function by itself
+        self.model.to(self.device)
         self.model.eval()
         for batch in self.val_loader:
             # no gradient tracking and automated mixed precision

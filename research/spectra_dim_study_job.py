@@ -4,6 +4,8 @@ Automatically generate and submit batch jobs for a scaling law study.
 This script has been written to run on the TU Ilmenau cluster with my specific setup.
 """
 
+from __future__ import annotations
+
 import os
 import sys
 from itertools import islice

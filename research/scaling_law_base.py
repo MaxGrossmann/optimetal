@@ -2,7 +2,7 @@
 Here, we create the input dictionaries for a scaling law study. Specifically, we setup a standard scaling 
 law study, in which we vary only the number of training data points. The same applies to the model width, i.e.,
 the number of model parameters. We train each model using three random seeds. The resulting configuration files 
-can then be used to easily train models with the 'research/train_model.py' script.
+can then be used to train models with the 'research/train_model.py' script.
 
 For OptiMetal2B, we use the two top configurations from the ablation study that differ only in their 
 message-passing layer. For OptiMetal3B, we use the best configuration from the ablation study.

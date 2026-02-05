@@ -18,7 +18,7 @@ The resulting torch_geometric 'Data' object contains the following information:
 - 'atomic_number':      Atomic numbers of the atoms (used to generate the node features)
 - 'position':           Atomic positions in Cartesian coordinates
 - 'lattice':            The lattice matrix of the unit cell, where each row is a lattice vector
-- 'num_twobody':        Number of valid three-body interactions (bonds, i.e., edges)
+- 'num_twobody':        Number of valid two-body interactions (bonds, i.e., edges)
 - 'edge_index':         COO-style tensor defining source and destination atoms of each bond, size: (2, num_twobody)
 - 'pbc_offset':         Periodic boundary corrections for each bond
 - 'num_threebody':      Number of valid three-body interactions (angles)
@@ -27,10 +27,13 @@ The resulting torch_geometric 'Data' object contains the following information:
 - 'eps':                Complex dielectric function, interband contribution, split into real and imaginary parts, size: (2001, 2)
 - 'color':              CIE L*a*b* material color derived from the total dielectric function
 - 'mat_id':             Unique identifier for the material (Alexandria database)
+- 'e_above_hull':       Energy above convex hull
 - 'composition':        String representation of the chemical composition
 
 (This script takes some time to run. But we did not care enough to optimize/parallelize it.)
 """
+
+from __future__ import annotations
 
 import os
 import sys

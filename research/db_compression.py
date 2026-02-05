@@ -20,6 +20,8 @@ The training, validation and test split is based on unique compositions, cf., ht
 (This script is parallelized and still takes some time.)
 """
 
+from __future__ import annotations
+
 import os
 from tqdm import tqdm
 

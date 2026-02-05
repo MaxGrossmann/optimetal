@@ -56,7 +56,6 @@ class OptiMetal2BNoResidual(torch.nn.Module):
             node_embedding_dict = {
                 "type": "atom",
                 "embedding_dim": 64,
-                "sparse": False,
             }
         if edge_embedding_dict is None:
             edge_embedding_dict = {

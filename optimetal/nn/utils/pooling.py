@@ -4,6 +4,8 @@ The input for each pooling layer is validated by 'optimetal.nn.utils.config_sche
 https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html#pooling-layers
 """
 
+from __future__ import annotations
+
 import torch
 import torch_geometric
 

@@ -9,6 +9,8 @@ That's why they all contain a residual connection, an MLP, and layer normalizati
 See Fig. 1 at https://arxiv.org/abs/1706.03762 for a visual representation of the transformer encoder block.
 """
 
+from __future__ import annotations
+
 import torch
 import torch_geometric
 

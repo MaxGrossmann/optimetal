@@ -21,7 +21,7 @@ The configuration file contains training settings:
     "early_stopping": bool      # Flag to activate early stopping
     "patience": int             # Early stopping patience (requires 'early_stopping=true')
     "num_epoch": int            # Number of training epochs
-    "precision": str            # Automatic mixed precision training ("auto", "bf16" or "fp32")
+    "precision": str            # Automatic mixed precision training ("fp32" or "bf16")
 }
 
 Example configuration:
@@ -34,6 +34,8 @@ Track the training progress through something like this (adjust the path accordi
     tensorboard --logdir ./scratch/magr4985/Scaling_Base/2b_variant2_hestness_data20000_seed42
 https://docs.pytorch.org/docs/stable//tensorboard.html
 """
+
+from __future__ import annotations
 
 import os
 import sys

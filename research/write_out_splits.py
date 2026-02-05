@@ -2,6 +2,8 @@
 Run 'research/db_init.py' first.
 """
 
+from __future__ import annotations
+
 import os
 import sys
 

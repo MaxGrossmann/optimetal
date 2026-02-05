@@ -2,6 +2,8 @@
 The schemas below are used to validate the dictionaries used to create parts of the OptiMetal architecture.
 """
 
+from __future__ import annotations
+
 from typing import Literal, Annotated, Union
 from pydantic import BaseModel, Field, ConfigDict, field_validator
 

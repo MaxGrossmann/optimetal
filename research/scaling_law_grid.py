@@ -2,7 +2,7 @@
 Here, we create the input dictionaries for a scaling law study. Specifically, we setup a grid search
 scaling law, in which we only vary the number of training data points and the model width, i.e., the number of
 model parameters simultaneously. We train each model using three random seeds. The resulting configuration files 
-can then be used to easily train models with the 'research/train_model.py' script.
+can then be used to train models with the 'research/train_model.py' script.
 
 We scale the learning rate with the model width.
 See 'research/transformer_scaling.py' for details.

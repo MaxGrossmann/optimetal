@@ -7,6 +7,8 @@ such durations. Results are printed in both seconds and hours.
 This script has been written to run on the TU Ilmenau cluster with my specific setup.
 """
 
+from __future__ import annotations
+
 import os
 import re
 import argparse

@@ -4,6 +4,8 @@ Each embedding module must define a class variable called 'embedding_dim'.
 The input for embedding is validated by 'optimetal.nn.utils.config_schema'.
 """
 
+from __future__ import annotations
+
 import torch
 
 class AtomEmbedding(torch.nn.Module):

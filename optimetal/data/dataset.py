@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import Any
 from torch import Tensor
 from torch_geometric.data import Data

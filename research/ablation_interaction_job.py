@@ -6,6 +6,8 @@ via the 'ablation_study_interaction.py' directory-level locking.
 This script has been written to run on the TU Ilmenau cluster with my specific setup.
 """
 
+from __future__ import annotations
+
 import os
 import textwrap
 

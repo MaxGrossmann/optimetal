@@ -73,9 +73,9 @@ def setup_architectures(
     arch_config: dict,
 ) -> None:
     """
-    Helper function to set up the architecture configurations for a scaling law study.
+    Helper function to set up the architecture configurations for investigating the influence of the spectra MLP width multiplier.
     """
-    # loop over model widths and learning rate scaling exponents
+    # loop over width multipliers for the spectra MLP
     for spectra_dim_multiplier in spectra_dim_multiplier_list:
         # adjust the 'hidden_dim' and 'spectra_dim'
         parameter_arch_config = deepcopy(arch_config)

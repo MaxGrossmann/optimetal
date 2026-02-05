@@ -77,7 +77,7 @@ def setup_architectures(
     arch_config: dict,
 ) -> None:
     """
-    Helper function to set up the architecture configurations for a scaling law study.
+    Helper function to set up the architecture configurations for the learning rate scaling experiment.
     """
     # optimizer settings and model parameter count of the base architecture
     base_lr = arch_config["optimizer"]["lr"]
@@ -85,7 +85,7 @@ def setup_architectures(
         factory.create_model(arch_config["architecture"])
     )
 
-    # loop over model widths and learning rate scaling exponents
+    # loop over model widths
     for hidden_dim in [16, 32, 64, 128, 256, 512, 1024]:
         # adjust the 'hidden_dim' and 'spectra_dim'
         width_arch = deepcopy(arch_config)
@@ -95,6 +95,7 @@ def setup_architectures(
         model_parameter = get_model_parameters(
             factory.create_model(width_arch["architecture"])
         )
+        # loop over learning rate scaling exponents
         for gamma in gamma_list:
             run_arch = deepcopy(width_arch)
             # scale the learning rate

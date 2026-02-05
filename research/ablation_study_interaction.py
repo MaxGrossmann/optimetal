@@ -95,7 +95,7 @@ parser.add_argument(
     default=None,
     help=(
         "If set, try to load the learning rate and weight decay from the " + 
-        "study directory of this seed. Falls back to optimisation " +
+        "study directory of this seed. Falls back to optimization " +
         "when the cached values are not found",
     ),
 )

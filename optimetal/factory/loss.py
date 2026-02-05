@@ -4,6 +4,8 @@ All losses will use 'reduction="mean"' so that the 'Trainer'
 class correctly calculates the average loss per epoch.
 """
 
+from __future__ import annotations
+
 import torch
 
 class OptiMateMAELoss(torch.nn.Module):

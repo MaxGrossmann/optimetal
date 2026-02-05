@@ -2,6 +2,8 @@
 Helper function for setting up a model based on a dictionary.
 """
 
+from __future__ import annotations
+
 from copy import deepcopy
 
 import torch
