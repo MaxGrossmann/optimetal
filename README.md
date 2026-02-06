@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the OptiMetal model family: a set of graph neural networks for predicting the optical properties of metals from structural information alone.
 
-In addition, the repository provides all code and derived results used in the publication [*Broken neural scaling laws in materials science*](https://arxiv.org/), including dataset analytics, architecture optimization results, and neural scaling law analyses, as well as instructions for obtaining the associated datasets.
+In addition, the repository provides all code and derived results used in the publication [*Broken neural scaling laws in materials science*](https://arxiv.org/abs/2602.05702), including dataset analytics, architecture optimization results, and neural scaling law analyses, as well as instructions for obtaining the associated datasets.
 
 ---
 
