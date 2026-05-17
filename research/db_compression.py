@@ -106,6 +106,7 @@ def check_full_db(full_db_path: str) -> bool:
         return False
 
     # validate the file counts for each directory
+    valid = True
     for dir_name, expected_count in db_dir_dict.items():
         dir_path = os.path.join(full_db_path, dir_name)
         # count all JSON files in the directory
@@ -113,10 +114,16 @@ def check_full_db(full_db_path: str) -> bool:
         actual_count = len(json_files)
         # compare file counts
         if actual_count != expected_count:
-            print(f"Validation failed: Directory '{dir_name:s}' has {actual_count:d} JSON files, expected {expected_count:d}", flush=True)
+            print(
+                f"Validation failed: Directory '{dir_name:s}' has {actual_count:d} JSON files, expected {expected_count:d}", 
+                flush=True,
+            )
+            valid = False
         else:
             print(f"Directory '{dir_name:s}' validated successfully with {actual_count:d} JSON files", flush=True)
-
+    if not valid:
+        print("The full database appears to be corrupted", flush=True)
+        return False
     print("The full database was successfully validated", flush=True)
     return True
 

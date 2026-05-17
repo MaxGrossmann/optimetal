@@ -125,7 +125,7 @@ class Evaluator:
         return 1.0 - (torch.trapezoid(torch.abs(pred - target)) / torch.trapezoid(torch.abs(target)))
     
     def _r2(self, pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
-        return 1.0 - (torch.sum((pred - target)**2) / torch.sum((target - torch.mean(target))**2) + 1e-7)
+        return 1.0 - (torch.sum((pred - target)**2) / (torch.sum((target - torch.mean(target))**2) + 1e-7))
     
     def evaluate(self) -> None:
         """
@@ -420,7 +420,7 @@ class Evaluator:
         ax.set_xlabel("")
         ax.set_ylabel(self.label_dict[metric_name])
         if ("_r2" in metric_name) or ("_sc" in metric_name):
-            ax.set_xlim(left=0.0, right=1.0)
+            ax.set_ylim(bottom=0.0, top=1.0)
         fig.tight_layout()
         fig.align_labels()
         if fig_path is not None:
@@ -442,7 +442,7 @@ class Evaluator:
         dielectric function.
         Input:
             num_mats:           The number of random materials that we want to plot 
-                                (currently, only 9, 16, or 30 are supported)
+                                (currently, only 9, 16, or 25 are supported)
             gamma:              Broadening parameter for the intraband dielectric function (eV)
                                 (~ 1 / scattering time)
             interband_only:     Only plots the interband part of the total dielectric function
@@ -453,8 +453,8 @@ class Evaluator:
             fig:                Matplotlib figure object
             axes:               Matplotlib axis array
         """
-        if num_mats not in (9, 16, 30):
-            raise ValueError(f"Currently, we only support plots of 9, 16 or 30 materials")
+        if num_mats not in (9, 16, 25):
+            raise ValueError(f"Currently, we only support plots of 9, 16 or 25 materials")
         # pick 'num_mats' random materials and put them into a dataloader
         # this could be problematic if the model is either very large or you have limited GPU memory...
         data_list = list(self.dataloader.dataset)
@@ -513,12 +513,12 @@ class Evaluator:
             fig, axes = plt.subplots(4, 4, figsize=(8, 8))
             xlabel_xy = [0.525, 0.01]
             ylabel_xy = [0.012, 0.52]
-        elif num_mats == 30:
+        elif num_mats == 25:
             fig, axes = plt.subplots(5, 5, figsize=(10, 10))
             xlabel_xy = [0.525, 0.01]
             ylabel_xy = [0.012, 0.52]
         else:
-            raise ValueError(f"Currently, we only support plots of 9, 16 or 30 materials")
+            raise ValueError(f"Currently, we only support plots of 9, 16 or 25 materials")
         for i, ax in enumerate(axes.ravel()):
             data = samples[i]
             omega = transform.get_omega() # shape: (2001)

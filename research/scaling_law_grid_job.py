@@ -36,7 +36,7 @@ max_large_per_batch = 2
 
 # check that the directory containing the model configurations exists
 if not os.path.exists(config_dir):
-    sys.exit(f"The directory {config_dir:s} containing the model configurations does not exist!")
+    sys.exit(f"The directory '{config_dir:s}' containing the model configurations does not exist!")
 
 # ensure job directory exists
 os.makedirs(job_dir, exist_ok=True)
