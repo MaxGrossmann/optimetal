@@ -6,7 +6,7 @@ from torch_geometric.data import Data
 
 class ThreebodyData(Data):
     """
-    Custom torch_geometric 'Data' object to ensure correct batching behavior for edge (twobody) indices and 
+    Custom PyG 'Data' object to ensure correct batching behavior for edge (twobody) indices and 
     angle (threebody) indices in my dataset, see https://pytorch-geometric.readthedocs.io/en/2.5.2/advanced/batching.html.
     """
     

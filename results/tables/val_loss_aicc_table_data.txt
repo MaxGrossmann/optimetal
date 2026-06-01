@@ -1,0 +1,13 @@
+\begin{tabular}{lc@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+ & Power Law & Power Law + Floor & Broken Power Law & Broken power law + Amplitude \\
+\midrule
+\textsc{OptiMetal2B} (CGC) & -36.20 & -29.20 & -57.74 & -49.89 \\
+\textsc{OptiMetal2B} (TC) & -34.87 & -27.87 & -44.88 & -38.72 \\
+\textsc{OptiMetal3B} (TC) & -39.91 & -32.91 & -57.70 & -48.48 \\
+\textsc{UMA} ($\ell_\mathrm{max}=0$) & -23.79 & -16.79 & -47.13 & -69.10 \\
+\textsc{UMA} ($\ell_\mathrm{max}=1$) & -32.54 & -25.54 & -58.16 & -45.72 \\
+\textsc{UMA} ($\ell_\mathrm{max}=2$) & -35.53 & -28.53 & -66.11 & -45.48 \\
+\textsc{UMA} ($\ell_\mathrm{max}=3$) & -29.51 & -22.51 & -53.14 & -33.74 \\
+\bottomrule
+\end{tabular}

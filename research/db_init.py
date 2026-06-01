@@ -5,7 +5,7 @@ Loads the compressed database ('train.h5', 'val.h5' and 'test.h5')
 and creates a multigraph representation of the materials usable in torch_geometric. 
 It also calculates some target values, e.g., the material color.
 (See the file 'optimetal/data/transform.py' for details).
-The created '.pt' contains a list torch_geometric 'Data' objects. 
+The created '.pt' contains a list PyG 'Data' objects. 
 (See https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.data.Data.html)
 
 We convert the crystal structures into multigraph by creating a node for each atom in the unit cell, 
@@ -13,7 +13,7 @@ and creating an edge between nodes if the distance between corresponding atoms i
 Since some architectures include angles, e.g., for edge updates like M3GNet, we also construct three-body interactions:
 We identify bond pairs that share a central atom and where both bonds are shorter than a given 'threebody_cutoff'.
 
-The resulting torch_geometric 'Data' object contains the following information:
+The resulting PyG 'Data' object contains the following information:
 - 'num_nodes':          Number of atoms in the unit cell
 - 'atomic_number':      Atomic numbers of the atoms (used to generate the node features)
 - 'position':           Atomic positions in Cartesian coordinates

@@ -1,0 +1,12 @@
+\begin{tabular}{lc@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+ & Kaplan-style NSL & Hoffmann-style NSL \\
+\midrule
+\textsc{OptiMetal2B} (TC) & -344.50 & -253.68 \\
+\textsc{OptiMetal3B} (TC) & -359.55 & -285.21 \\
+\textsc{UMA} ($\ell_\mathrm{max}=0$) & -210.19 & -180.76 \\
+\textsc{UMA} ($\ell_\mathrm{max}=1$) & -205.87 & -188.48 \\
+\textsc{UMA} ($\ell_\mathrm{max}=2$) & -218.79 & -197.54 \\
+\textsc{UMA} ($\ell_\mathrm{max}=3$) & -231.62 & -216.05 \\
+\bottomrule
+\end{tabular}

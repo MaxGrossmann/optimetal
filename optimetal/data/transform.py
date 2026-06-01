@@ -4,7 +4,7 @@ Examples are:
     - Unit conversions.
     - Calculate the intraband dielectric function from the Drude frequency.
     - Calculate the color perceived by humans from the dielectric function.
-    - Convert the data into torch_geometric 'Data' objects (https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.data.Data.html).
+    - Convert the data into PyG 'Data' objects (https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.data.Data.html).
 """
 
 from __future__ import annotations
@@ -169,14 +169,14 @@ def graph_setup(
     threebody_cutoff: float = 4.0,
 ) -> list[ThreebodyData]:
     """
-    Converts the input data into a custom torch_geometric 'Data' object.
+    Converts the input data into a custom PyG 'Data' object.
     Input:
         data_list:          List of dictionaries containing the crystal structure and material properties
         twobody_cutoff:     Cutoff radius in angstroms for finding bonds
         threebody_cutoff:   Cutoff radius in angstroms for finding bond angles 
                             (default is same as M3GNET, i.e., https://www.nature.com/articles/s43588-022-00349-3#Sec8)
     Output:
-        graph_list:         List with torch_geometric 'Data' objects
+        graph_list:         List with PyG 'Data' objects
     """
     # create the graph and store them in the custom 'Data' object
     graph_list = []

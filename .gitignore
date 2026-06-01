@@ -1,6 +1,8 @@
 # Dataset and graphs
 dataset/
 graph/
+graph_e3/
+optimetal_e3/files/optimetale3_lmax*.pt
 
 # Test directories, scripts and notebooks
 test*/
@@ -14,6 +16,9 @@ test.ipynb
 
 # VSCode stuff
 .vscode*
+
+# MacOS stuff
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

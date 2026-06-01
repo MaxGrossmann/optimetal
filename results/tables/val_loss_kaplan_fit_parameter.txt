@@ -1,0 +1,12 @@
+\begin{tabular}{c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+Model & $\alpha_N$ & $\alpha_{D,1}$ & $\alpha_{D,2}$ & $N_c$ & $D_c$ \\
+\midrule
+\textsc{OptiMetal2B} (TC) & $0.30$ & $0.20$ & $0.37$ & $226.7$\,k & $32.6$\,k \\
+\textsc{OptiMetal3B} (TC) & $0.33$ & $0.16$ & $0.46$ & $137.4$\,k & $29.4$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=0$) & $0.34$ & $0.16$ & $0.49$ & $61.0$\,k & $86.1$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=1$) & $0.27$ & $0.16$ & $0.60$ & $37.1$\,k & $51.2$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=2$) & $0.23$ & $0.17$ & $0.61$ & $27.1$\,k & $35.4$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=3$) & $0.25$ & $0.17$ & $0.53$ & $31.5$\,k & $30.3$\,k \\
+\bottomrule
+\end{tabular}

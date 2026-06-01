@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "optimetal"
 version = "1.0.0"
-description = "OptiMetal: Graph neural networks for optical properties of metals"
+description = "Graph neural networks for optical properties of metals"
 authors = [
     {name = "Max Großmann", email = "max.grossmann@tu-ilmenau.de"},
 ]
@@ -22,6 +22,7 @@ dependencies = [
     "ipykernel",
     "matplotlib",
     "prettytable",
+    "e3nn",
     "torch",
     "torch_geometric",
     "tensorboard",
@@ -30,7 +31,13 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["optimetal"]
+include = [
+    "optimetal",
+    "optimetal.*",
+    "optimetal_e3",
+    "optimetal_e3.*",
+]
 
 [tool.setuptools.package-data]
 "optimetal.files" = ["*.csv", "*.mplstyle", "*.pt"]
+"optimetal_e3.files" = ["*.csv", "*.mplstyle", "*.pt", "*.json"]

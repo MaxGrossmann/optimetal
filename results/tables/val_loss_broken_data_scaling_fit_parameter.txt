@@ -1,0 +1,13 @@
+\begin{tabular}{c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}c@{\hspace{1em}}}
+\toprule
+Model & $\alpha_{D,1}$ & $\alpha_{D,2}$ & $D_c$ \\
+\midrule
+\textsc{OptiMetal2B} (CGC) & $0.15$ & $0.42$ & $52.4$\,k \\
+\textsc{OptiMetal2B} (TC) & $0.18$ & $0.39$ & $42.1$\,k \\
+\textsc{OptiMetal3B} (TC) & $0.17$ & $0.38$ & $26.6$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=0$) & $0.16$ & $0.50$ & $96.9$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=1$) & $0.18$ & $0.46$ & $49.3$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=2$) & $0.19$ & $0.43$ & $30.0$\,k \\
+\textsc{UMA} ($\ell_\mathrm{max}=3$) & $0.19$ & $0.41$ & $25.1$\,k \\
+\bottomrule
+\end{tabular}

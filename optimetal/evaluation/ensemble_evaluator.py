@@ -138,7 +138,9 @@ class EnsembleEvaluator:
             
         # check that all training configurations dictionaries match
         assert_configs_equal(self.config_dicts, self.best_model_paths)
-        self.config_dict = self.config_dicts[0]
+        self.config_dict = self.config_dicts[0] 
+        # the line above also fixed the random seed for the evaluation, i.e.,
+        # for reproducibility in the sampling of materials for plotting, etc.
             
         # evaluation device
         self.device = utils.get_device(index=device_index)
@@ -187,6 +189,9 @@ class EnsembleEvaluator:
             "delta_e": r"$\Delta E$",
         }
         
+        # global numpy random seed
+        np.random.seed(self.config_dict.seed)
+        
         # load the plot style
         utils.load_plot_style()
         
@@ -201,7 +206,7 @@ class EnsembleEvaluator:
             model = factory.create_model(model_config)
             model.load_state_dict(best_model_dict["model_state_dict"])
             model.to(device=self.device)
-            model.eval()
+            model.eval() # just to be save...
             self.models.append(model)
             print(f"Loaded model from {self.best_model_paths[i]!s}", flush=True)
         self.num_parameter = utils.get_model_parameters(self.models[0])

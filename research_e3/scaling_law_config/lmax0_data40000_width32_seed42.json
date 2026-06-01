@@ -1,0 +1,19 @@
+{
+    "seed": 42,
+    "trial_dir": "/scratch/magr4985/scaling_law/lmax0_data40000_width32_seed42",
+    "num_train_data": 40000,
+    "batch_size": 256,
+    "lmax": 0,
+    "mmax": 0,
+    "hidden_channels": 32,
+    "ff_type": "spectral",
+    "lr": 0.002,
+    "weight_decay": 0.0001,
+    "grad_clip": 100,
+    "eps_weight": 1,
+    "drude_weight": 1,
+    "early_stopping": false,
+    "patience": 500,
+    "num_epoch": 500,
+    "precision": "fp32"
+}

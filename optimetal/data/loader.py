@@ -78,7 +78,7 @@ def create_dataloader(
     seed: int = 42,
 ) -> torch_geometric.loader.DataLoader:
     """
-    Creates a torch_geometric dataloader based on a list of graphs.
+    Creates a PyG dataloader based on a list of graphs.
     Input:
         data_list:      List of graphs, see 'research/db_init.py'
         num_data:       Number of samples to use in the dataset (any number < 1 uses all data points)
