@@ -92,9 +92,9 @@ The equivariant OptiMetalE3 models based on the UMA architecture were trained an
 Due to their file size, the pretrained OptiMetalE3 model checkpoints are not included directly in this repository. 
 They can be downloaded from [*here*](https://doi.org/10.6084/m9.figshare.31112554) and should be placed in `./optimetal_e3/files` before running the corresponding evaluation scripts.
 
-Example training workflows can be found in `./research/train_model.ipynb` and `./research_e3/train_model.ipynb`. 
+Example training workflows can be found in `./research/train_model.ipynb` and `./research_e3/train_model.py`.
 Example single-model evaluation workflows are provided in `./research/evaluate_model.ipynb` and `./research_e3/evaluate_model.ipynb`. 
-For ensemble evaluation, see `./research/evaluate_ensemble_model.ipynb` and `./research_e3/evaluate_ensemble_model.ipynb`. 
+For ensemble evaluation, see `./research/evaluate_model_ensemble.ipynb` and `./research_e3/evaluate_model_ensemble.ipynb`.
 
 ---
 

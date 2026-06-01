@@ -101,7 +101,7 @@ class Evaluator:
 
     def _load_model(self) -> None:
         """
-        It builds the best model, puts it on the device and then puts it into evaluation mode.
+        Builds the best model, puts it on the device and then puts it into evaluation mode.
         We also store the number of model parameters in the object.
         """
         self.model = OptiMetalE3(

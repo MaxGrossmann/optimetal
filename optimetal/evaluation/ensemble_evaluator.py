@@ -81,7 +81,7 @@ def assert_configs_equal(
     paths: list[str],
 ) -> None:
     """
-    Helper function to validate the the configuration dictionaries of from
+    Helper function to validate that configuration dictionaries from
     training runs with different seeds and training directories are equal.
     """
     norm_config = [normalized_config(c) for c in configs]
@@ -90,7 +90,7 @@ def assert_configs_equal(
         diffs = deep_diff(ref, other, path="")
         if diffs:
             lines = [
-                f"configuration mismatch (only 'seed' may differ):",
+                f"configuration mismatch (only 'seed' and 'trial_dir' may differ):",
                 f"- reference: {paths[0]}",
                 f"- compared : {paths[i]}",
             ]

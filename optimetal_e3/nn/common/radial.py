@@ -30,7 +30,7 @@ class PolynomialEnvelope(torch.nn.Module):
     
 class GaussianEmbedding(torch.nn.Module):
     """
-    Bond distance embeddings are obtained using Gaussian radial basis functions. The standard deviation of each Gaussian is is given by 
+    Bond distance embeddings are obtained using Gaussian radial basis functions. The standard deviation of each Gaussian is given by
     'basis width' multiplied by the spacing between neighboring centers. Therefore, one can control the amount of overlap between neighboring
     Gaussians through 'basis_width'.
     Refs.: 
