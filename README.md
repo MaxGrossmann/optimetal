@@ -109,6 +109,6 @@ These names are used consistently throughout the repository.
 
 ### References 
 
-[^1]: B. Wood, M. Dzamba, X. Fu, M. Gao, M. Shuaibi, L. Barroso-Luque, K. Abdelmaqsoud, V. Gharakhanyan, J. Kitchin, D. Levine, K. Michel, A. Sriram, T. Cohen, A. Das, S. Sahoo, A. Rizvi, Z. Ulissi, and L. Zitnick, UMA: A family of universal models for atoms, in Advances in Neural Information Processing Systems, Vol. 38, edited by D. Belgrave, C. Zhang, H. Lin, R. Pascanu, P. Koniusz, M. Ghassemi, and N. Chen (Curran Associates, Inc., 2025) p. 129391–129427
+[^1]: B. Wood, M. Dzamba, X. Fu, M. Gao, M. Shuaibi, L. Barroso-Luque, K. Abdelmaqsoud, V. Gharakhanyan, J. Kitchin, D. Levine, K. Michel, A. Sriram, T. Cohen, A. Das, S. Sahoo, A. Rizvi, Z. Ulissi, and L. Zitnick, UMA: A family of universal models for atoms, in Advances in Neural Information Processing Systems, Vol. 38, edited by D. Belgrave, C. Zhang, H. Lin, R. Pascanu, P. Koniusz, M. Ghassemi, and N. Chen (Curran Associates, Inc., 2025) p. 129391–129427, https://doi.org/10.48550/arXiv.2506.23971
 [^2]: J. Hestness, S. Narang, N. Ardalani, G. Diamos, H. Jun, H. Kianinejad, M. M. A. Patwary, Y. Yang, and Y. Zhou, Deep learning scaling is predictable, empirically, arXiv:1712.00409 (2017), https://doi.org/10.48550/arXiv.1712.00409
 [^3]: J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child, S. Gray, A. Radford, J. Wu, and D. Amodei, Scaling laws for neural language models, arXiv:2001.08361 (2020), https://doi.org/10.48550/arXiv.2001.08361
