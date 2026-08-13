@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the OptiMetal model family: a set of invariant and equivariant graph neural networks for predicting the optical properties of metals from structural information alone.
 
-In addition, the repository provides all code and derived results used in the publication [*Broken neural scaling laws in learning the optical properties of solids*](https://arxiv.org/abs/2602.05702), including dataset analytics, architecture optimization results, and neural scaling law analyses, as well as instructions for obtaining the associated datasets.
+In addition, the repository provides all code and derived results used in the publication [*Broken Neural Scaling Laws in Learning the Optical Properties of Solids*](https://doi.org/10.1103/wv8r-7zr1), including dataset analytics, architecture optimization results, and neural scaling law analyses, as well as instructions for obtaining the associated datasets.
 
 ---
 
